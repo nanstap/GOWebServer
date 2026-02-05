@@ -516,7 +516,7 @@ func Initialize() *fiber.App {
 
 	cdnUrl := config.ServerCdn
 	if cdnUrl == "default" {
-		cdnUrl = "0098/0181220253/" // @note 31-12-2025 update ( 5.39 )
+		cdnUrl = "0098/040220269/" // @note 05-02-2026 update ( 5.42 )
 	}
 
 	app.Use(func(c *fiber.Ctx) error {
