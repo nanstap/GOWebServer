@@ -89,9 +89,9 @@ func GetConfig() Config {
 
 func CreateConfig() Config {
 	config := Config{
-		Host:              "127.0.0.1",
+		Host:              "10.107.148.200",
 		Port:              "17091",
-		LoginUrl:          "default",
+		LoginUrl:          "https://gt-login-60em23kbv-gtps1.vercel.app",
 		ServerCdn:         "default",
 		Logger:            true,
 		RateLimit:         300,
